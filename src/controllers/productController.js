@@ -57,7 +57,7 @@ exports.getProductById = async (req, res) => {
 };
 
 // Update a product by ID
-// Update a product by ID
+
 exports.updateProduct = async (req, res) => {
   try {
     // If category is provided, convert it to ObjectId using "new"
